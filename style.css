@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Sniglet:800);
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+* {
+  /*border: 1px solid black;*/
+}
+table {
+  margin-bottom: 20px;
+  width: 100%;
+}
+td {
+  width: 33%
+}
+input {
+  width: 80%;
+  font-size: 1.2rem;
+  font-family: 'Gloria Hallelujah', cursive;
+  height: 40px;
+  box-sizing: border-box;
+}
+input[type=text] {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  border: none;
+}
+input.submit {
+  background-color: rgb(51, 131, 33);
+  height: 40px;
+  color: white;
+  border: none;
+}
+input::-webkit-input-placeholder {
+   color: white;
+   text-align: center;
+}
+body {
+  font-family: Helvetica, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  text-align: center;
+  background-color: #99ccee;
+  background-image: url(doughnut.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1 {
+  font-family: 'Sniglet', Helvetica, cursive;
+  letter-spacing: -2px;
+  font-size: 4.2rem;
+  text-align: center;
+  margin: 5rem auto 3rem;
+  line-height: 1.2;
+  color: white;
+}
+h1:before {
+  content: "The ";
+  font-size: 1.8rem;
+  margin: 2rem 0 -1rem 0;
+  display: block;
+}
+h2 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+h1, h2 {
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  text-shadow: 0px 8px 10px rgba(0, 0, 0, 1);
+}
+ul {
+  text-align: left;
+  max-width: 300px;
+  margin: 0 auto;
+}
+li {
+  color: white;
+}
